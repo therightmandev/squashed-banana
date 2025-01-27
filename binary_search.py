@@ -31,3 +31,8 @@ assert bsearch(4, [4]) == 0
 assert bsearch(4, [4], 3) == 3
 assert bsearch(6, [1, 2, 3, 4, 5]) == -1
 assert bsearch(3, [1, 2, 4, 5]) == -1
+assert bsearch(6, [1, 2, 3, 4, 5, 6]) == 5
+assert bsearch(2, [1, 2, 3, 4, 5, 6]) == 1
+assert bsearch(3, [1, 2, 3, 4, 5, 6]) == 2
+assert bsearch(4, [1, 2, 3, 4, 5, 6]) == 3
+assert bsearch(2, [1, 2, 3, 4, 5]) == 1
