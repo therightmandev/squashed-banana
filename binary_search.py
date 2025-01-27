@@ -16,7 +16,6 @@ def bsearch(value, array):
         index += (len(array) - index) // 2
         return index
 
-    return -1
 
 
 assert bsearch(3, [1, 2, 3, 4]) == 2
